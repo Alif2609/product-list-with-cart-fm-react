@@ -82,7 +82,7 @@ function CardButton({ data }) {
       <>
         <button className="btn-cart-add" onClick={() => addToCart(data)}>
           <img
-            src="/src/assets/images/icon-add-to-cart.svg"
+            src="/images/icon-add-to-cart.svg"
             alt=""
             aria-hidden="true"
           />
@@ -92,3 +92,4 @@ function CardButton({ data }) {
     );
   }
 }
+
