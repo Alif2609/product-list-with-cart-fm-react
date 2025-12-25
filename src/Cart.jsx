@@ -54,7 +54,7 @@ export default function Cart() {
         </div>
         <div className="carbon-neutral">
           <p>
-            <img src="/src/assets/images/icon-carbon-neutral.svg" alt="" />
+            <img src="/images/icon-carbon-neutral.svg" alt="" />
             This is a <span>carbon-neutral</span> delivery
           </p>
         </div>
@@ -70,7 +70,7 @@ export default function Cart() {
         <h2>Your Cart ({totalItems})</h2>
         <div className="empty-cart">
           <img
-            src="/src/assets/images/illustration-empty-cart.svg"
+            src="/images/illustration-empty-cart.svg"
             alt=""
             aria-hidden="true"
           />
@@ -148,3 +148,4 @@ function ConfirmationModal({ isOpen }) {
     </>
   );
 }
+
